@@ -59,7 +59,7 @@ public class MainController {
         map.put("header", "Kullanıcı giris sayfası");
         return "login";
     }
-
+      
     @RequestMapping("/admin-panel")
     public String secure(Map<String, Object> map) {
 
